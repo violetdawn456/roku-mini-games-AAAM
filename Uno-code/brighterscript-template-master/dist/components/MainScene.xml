@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+    <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+    <script type="text/brightscript" uri="pkg:/source/bslib.brs" />
+    <children>
+        <Rectangle id="backgroundRect00" width="1280" height="720" />
+        <Group translation="[600,100]" scale="[2.5,2.5]">
+            <Label id="playerName" text="playername" color="0x4c1db8FF" font="font:ExtraLargeSystemFont" horizAlign="center" vertAlign="center" />
+        </Group>
+        <Group translation="[230,100]" scale="[2.5,2.5]">
+            <Label id="topCard" text="UNO GAME test" color="0x4c1db8FF" font="font:ExtraLargeSystemFont" horizAlign="center" vertAlign="center" />
+        </Group>
+        <Group translation="[10,300]">
+            <buttonGroup id="playerCards" color="ffffff" textcolor="223a43" translation="[0,250]" buttonheight="130" maxWidth="140" minWidth="120" layoutDirection="horizontal" buttons='["1", "2","3"]' iconUri="https://i.ibb.co/chLD7BQR/2026-01-16-0ry-Kleki.png" />
+        </Group>
+        <Group translation="[1000,450]">
+            <buttonGroup id="playerActions" textcolor="7033EB" buttonheight="60" maxWidth="200" minWidth="200" buttons='["draw card", "play card","test"]' iconUri="" itemSpacings="[-5]" />
+        </Group>
+    </children>
+</component>
+<!--//# sourceMappingURL=./MainScene.xml.map -->
